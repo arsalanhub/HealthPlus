@@ -23,7 +23,10 @@ export default function Fireauth() {
   const logout = async () => {
     await auth.signOut();
   };
-  
+
+  const signin = async () => {
+    await auth.signInWithEmailAndPassword(email, password);
+  };
   return (
     <>
       {user == null ? (
@@ -40,7 +43,8 @@ export default function Fireauth() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button onClick={create}>Click Me</button>
+          <button onClick={create}>Signup</button>
+          <button onClick={signin}>Login</button>
         </div>
       ) : (
         <div>
