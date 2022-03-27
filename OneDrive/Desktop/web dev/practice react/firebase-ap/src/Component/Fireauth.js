@@ -19,6 +19,11 @@ export default function Fireauth() {
       };
     });
   }, []);
+
+  const logout = async () => {
+    await auth.signOut();
+  };
+  
   return (
     <>
       {user == null ? (
@@ -38,7 +43,10 @@ export default function Fireauth() {
           <button onClick={create}>Click Me</button>
         </div>
       ) : (
-        <div>{user.email}</div>
+        <div>
+          <div>{user.email}</div>
+          <button onClick={logout}>Signout</button>
+        </div>
       )}
     </>
   );
