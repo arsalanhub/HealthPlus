@@ -1,0 +1,120 @@
+/*
+#1 color = #3e64ff;
+#2 color = #3fbbc0;
+*/
+
+a:hover,
+a:focus {
+    color: #3e64ff;
+}
+
+.circled {
+	background: #3e64ff;
+}
+
+.con1 > div, .con2 > div, .con3 > div { 
+	background-color: #3e64ff;
+}
+
+.scrollup:hover {
+	background: #3e64ff;
+}
+
+
+/* service */
+
+.service-icon span {
+	color: #3e64ff;
+}
+
+
+
+/* button */
+.btn-skin {
+  background-color: #3e64ff;
+  border-color: #3e64ff;
+}
+
+
+/* top */
+.top-area {
+	background: #3e64ff;
+}
+
+/* menu */
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: #3e64ff;
+}
+.navbar-custom.top-nav-collapse .nav li a:hover,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
+    color: #3e64ff;
+}
+
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #3e64ff;
+}
+
+
+.bg-skin {
+	background: #3e64ff;
+}
+
+.highlight-color {
+	background-color: #3e64ff;
+}
+.color {
+	color: #3e64ff;
+}
+
+/* pricing box  */
+.pricing-content.featured h2,.pricing-content.featured .price-bottom {
+	background-color:#3e64ff;
+}
+.pricing-content.featured h3 {
+	background:#3e64ff;
+}
+
+
+
+/* team */
+.cbp-l-grid-team-name {
+    color: #3e64ff;
+}
+
+.cbp-l-filters-button .cbp-filter-counter {
+	background-color: #3e64ff;
+}
+
+.cbp-l-filters-alignLeft .cbp-filter-item-active {
+    /* @editable properties */
+    background-color: #3e64ff;
+    border:1px solid #3e64ff;
+}
+
+.cbp-l-filters-dropdownWrap {
+    background: #3e64ff;
+}
+.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+    /* @editable properties */
+    background-color: #3e64ff;
+    border-color: #3e64ff;
+}
+.cbp-l-caption-buttonLeft,
+.cbp-l-caption-buttonRight {
+    /* @editable properties */
+    background-color: #3e64ff;
+}
+
+.cbp-l-caption-buttonLeft:hover,
+.cbp-l-caption-buttonRight:hover {
+    /* @editable properties */
+    background-color: #3e64ff;
+}
+
+.form-control:focus {
+  border-color: #3e64ff;
+}
