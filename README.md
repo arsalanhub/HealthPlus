@@ -1,8 +1,7 @@
 **Key features of this website**
 
-1. First you need to signup on the website
-   1.1 You will get verification mail and after verifying mail you can login
-2. You need to click on CREATE ACCOUNT/LOGIN button which is present [on this page](https://hammerheads-67240.web.app/)
+1. First you need to signup on the website by clicking on CREATE ACCOUNT/LOGIN button which is present [on this page](https://hammerheads-67240.web.app/)
+2. You need to verify you email ID before login into the website
 3. Next you need to fill the form containing patient details
 4. After submitting form you will get details of doctor based on distance in ascending order
 5. The red button denotes that doctor is unavailable at the given slot
