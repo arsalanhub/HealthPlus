@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Health+</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <style id="" media="all">
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D,
+          U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2)
+          format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D,
+          U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D,
+          U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D,
+          U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D,
+          U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D,
+          U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      /* devanagari */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D,
+          U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+      }
+      /* latin-ext */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="robots" content="noindex, follow" />
+    <script nonce="80501f9d-acf0-4175-895e-21de60670a6c">
+      (function (w, d) {
+        !(function (a, e, t, r) {
+          (a.zarazData = a.zarazData || {}),
+            (a.zarazData.executed = []),
+            (a.zaraz = { deferred: [] }),
+            (a.zaraz.q = []),
+            (a.zaraz._f = function (e) {
+              return function () {
+                var t = Array.prototype.slice.call(arguments);
+                a.zaraz.q.push({ m: e, a: t });
+              };
+            });
+          for (const e of ["track", "set", "ecommerce", "debug"])
+            a.zaraz[e] = a.zaraz._f(e);
+          a.addEventListener("DOMContentLoaded", () => {
+            var t = e.getElementsByTagName(r)[0],
+              z = e.createElement(r),
+              n = e.getElementsByTagName("title")[0];
+            for (
+              n && (a.zarazData.t = e.getElementsByTagName("title")[0].text),
+                a.zarazData.x = Math.random(),
+                a.zarazData.w = a.screen.width,
+                a.zarazData.h = a.screen.height,
+                a.zarazData.j = a.innerHeight,
+                a.zarazData.e = a.innerWidth,
+                a.zarazData.l = a.location.href,
+                a.zarazData.r = e.referrer,
+                a.zarazData.k = a.screen.colorDepth,
+                a.zarazData.n = e.characterSet,
+                a.zarazData.o = new Date().getTimezoneOffset(),
+                a.zarazData.q = [];
+              a.zaraz.q.length;
+
+            ) {
+              const e = a.zaraz.q.shift();
+              a.zarazData.q.push(e);
+            }
+            z.defer = !0;
+            for (const e of [localStorage, sessionStorage])
+              Object.keys(e)
+                .filter((a) => a.startsWith("_zaraz_"))
+                .forEach(
+                  (t) =>
+                    (a.zarazData["z_" + t.slice(7)] = JSON.parse(e.getItem(t)))
+                );
+            (z.referrerPolicy = "origin"),
+              (z.src =
+                "/cdn-cgi/zaraz/s.js?z=" +
+                btoa(encodeURIComponent(JSON.stringify(a.zarazData)))),
+              t.parentNode.insertBefore(z, t);
+          });
+        })(w, d, 0, "script");
+      })(window, document);
+    </script>
+  </head>
+  <body>
+    <!-- <div id="UserName"></div> -->
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar" class="active">
+        <h1><a href="index.html" class="logo">+</a></h1>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="#"><span class="fa fa-home"></span> Home</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-user"></span> About</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-sticky-note"></span> Blog</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-cogs"></span> Services</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-paper-plane"></span> Contacts</a>
+          </li>
+        </ul>
+        <div class="footer">
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | HEALTH+
+            <i class="icon-heart" aria-hidden="true"></i>
+            <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+          </p>
+        </div>
+      </nav>
+
+      <div id="content" class="p-4 p-md-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <button
+              class="btn btn-dark d-inline-block d-lg-none ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active" id="UserName">
+                  <a class="nav-link" href="#">Loading...</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li> -->
+              </ul>
+              <button
+                type="button"
+                class="btn btn-danger"
+                onclick="logout()"
+                style="margin-top: 10px; margin-left: 10px"
+              >
+                Logout
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        <div class="form_container">
+          <div class="row">
+            <div class="col-sm-3">
+              <img id="doc_img" src="./doc_img2.avif" alt="Doctor" />
+            </div>
+            <div class="col-sm-9">
+              <form id="form">
+                <div class="mb-4">
+                  <h4 style="margin-bottom: 10px">Patient's Name</h4>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputName"
+                    placeholder="Enter Your Name"
+                    aria-describedby="nameHelp"
+                    required
+                  />
+                </div>
+
+                <div class="mb-2">
+                  <h4 style="margin-top: 10px; margin-bottom: 10px">
+                    Date Of Birth
+                  </h4>
+                  <input type="date" id="birthday" name="birthday" required />
+                </div>
+
+                <div class="mb-2">
+                  <h4 style="margin-top: 10px; margin-bottom: 10px">
+                    Choose Symptoms
+                  </h4>
+                  <input
+                    type="checkbox"
+                    class="symptom"
+                    name="symptom1"
+                    value="Cold"
+                  />
+                  <span id="symptom1">Cold</span>
+
+                  <input
+                    type="checkbox"
+                    class="symptom"
+                    name="symptom2"
+                    value="Fever"
+                  />
+                  <span id="symptom1">Fever</span>
+
+                  <input
+                    type="checkbox"
+                    class="symptom"
+                    name="symptom3"
+                    value="Skin_Problem"
+                  />
+                  <span id="symptom1">Skin Problem</span>
+                  <br />
+
+                  <input
+                    type="checkbox"
+                    class="symptom"
+                    name="symptom4"
+                    value="Food_Poisoning"
+                  />
+                  <span id="symptom1">Food Poisoning</span>
+
+                  <input
+                    type="checkbox"
+                    class="symptom"
+                    name="symptom5"
+                    value="Ortho_Problem"
+                  />
+                  <span id="symptom1">Ortho Problem</span>
+                </div>
+
+                <div>
+                  <h4 style="margin-top: 5px; margin-bottom: 10px">
+                    Select Gender
+                  </h4>
+
+                  <select class="gender" style="margin-right: 30px">
+                    <option id="gender1" value="Male">Male</option>
+                    <option id="gender2" value="Male">Female</option>
+                    <option id="gender3" value="Male">Others</option>
+                  </select>
+
+                  <div class="mb-4">
+                    <h4
+                      style="margin-top: 10px; margin-bottom: 10px"
+                      class="form=control"
+                    >
+                      Contact Details
+                    </h4>
+
+                    <input
+                      type="number"
+                      value="Contact"
+                      placeholder="Enter Your Contact"
+                      id="contact"
+                      required
+                    /><br />
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  onclick="submitData()"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+      data-cf-beacon='{"rayId":"70ca0b372d9f963e","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}'
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script src="../Firebase.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
